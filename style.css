@@ -1,0 +1,76 @@
+header {
+    background-color: #b1e0e6; 
+    color: white;               
+    padding: 15px;              
+    text-align: center; /* Centers the header content like the h1 */
+}
+
+h1 {
+    text-align: center; /* Keeps the main heading centered */
+}
+
+nav ul {
+    list-style-type: none; /* Removes default bullets from the list */
+    padding: 0; /* Removes extra padding */
+    margin: 0;
+    text-align: left; /* Aligns the navigation to the left */
+}
+
+nav ul li {
+    display: inline; /* Makes the navigation horizontal */
+    margin-right: 20px; /* Adds space between the links */
+}
+
+nav ul li a {
+    color: #4B0082; /* Adjusts link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+p {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#main {
+    color: red;
+    background-color: beige;
+    width: 500px;
+}
+
+.A {
+    border: 5px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(199, 176, 221);
+}
+
+body {
+    margin-left: 20px; /* Adds a 20px margin to the left side of the entire page */
+    margin-right: 20px; /* Add a margin to the right */
+    padding: 0; 
+}
+
+img {
+    margin-top: 20px; /* Adds space above images */
+}
+
+footer {
+    margin-top: 50px; 
+    text-align: center;
+    padding: 10px;
+    background-color: #b1e0e6;
+    color: white;
+}
+
+h2 {
+    margin-left: 0; /* Remove any default left margin */
+    padding-left: 0; /* Remove any default left padding */
+}
+
+p.intro-text {
+    margin-left: 0; /* Remove any default left margin from the paragraph */
+    padding-left: 0; /* Remove any default left padding from the paragraph */
+}
